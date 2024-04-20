@@ -16,7 +16,7 @@ FreeAI Platform is a free SaaS (Software as a Service) application where you can
 ## Free Limits
 
 - Image size: Maximum 5MB
-- Video length: Maximum 1 minute
+- Video length: Maximum 2 minute
 - Music file size: Maximum 10MB
 - Code execution time: Maximum 1 minute
 
