@@ -2,6 +2,6 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <p></p>
+    <p className="text-6xl text-green-500"> Aı  saas </p>
   );
 }
