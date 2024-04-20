@@ -1,7 +1,9 @@
 const landing = () => {
-    return ( <div>
-        
-    </div> );
+    return (
+         <div>
+
+    </div>
+     );
 }
  
 export default landing;
