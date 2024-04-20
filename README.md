@@ -8,6 +8,7 @@ FreeAI Platform is a free SaaS (Software as a Service) application where you can
 
 ## Features
 
+
 - Image processing: Analyze, apply filters, and transform your images.
 - Video processing: Edit, trim, and add effects to your videos.
 - Music processing: Edit, add effects, or convert your music files.
