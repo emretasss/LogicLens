@@ -1,9 +1,10 @@
 const landing = () => {
     return (
          <div>
-
-    </div>
-     );
+                Landing Page (unprotected)
+            
+            </div>
+          );
 }
  
 export default landing;
