@@ -2,7 +2,9 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <Button>click</Button>
+    <Button variant="destructive">click</Button>
 
     );
 }
+
+
