@@ -1,10 +1,10 @@
-import { Button } from "@/components/ui/button";
+import { UserButton } from "@clerk/nextjs";
 
 
 
 const DashboardPage = () => {
   return (
-    <p>Dashboard Page   (Proteced)</p>
+    <p>Dashboard Page   (Protected)</p>
     );
 }
 export default DashboardPage ;
