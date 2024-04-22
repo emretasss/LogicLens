@@ -5,10 +5,14 @@ const landing = () => {
          <div>
                 Landing Page (unprotected)  
                 
-                <Link  href="/dashboard"> 
-                <Button>sign in</Button> 
+                <Link  href="/sign-in"> 
+                <Button>login</Button> 
                 </Link>
-             
+
+
+                <Link  href="/sign-up"> 
+                <Button>Register</Button> 
+                </Link>
               </div>
           );
 }
