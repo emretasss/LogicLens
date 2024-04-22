@@ -7,7 +7,7 @@ const DashboardPage = () => {
     <div>
     <p>Dashboard Page </p>
 
-    <UserButton/>
+    <UserButton  afterSigOutUrl="/" />
     </div>
     );
 }
