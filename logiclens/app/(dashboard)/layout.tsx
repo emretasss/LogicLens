@@ -12,7 +12,9 @@ const DashboardLayout = (
         "> 
         side bar
         </div>
-
+        <main className="md:pl-72">
+        {children}
+        </main>
     </div> );
 }
  
