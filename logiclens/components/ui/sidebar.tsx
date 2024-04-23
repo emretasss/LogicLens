@@ -1,3 +1,4 @@
+import Link from 'next/link';
 "use client";
 
 const Sidebar = () => {
@@ -5,7 +6,12 @@ const Sidebar = () => {
 
         <div className="space-y-4 py-4 flex flex-col h-full
         bg-[#111827] text-white">
-            sidebar component
+
+            <div>
+            <Link href="/dashboard" />
+            
+            </div>
+
 
         </div>
      );
