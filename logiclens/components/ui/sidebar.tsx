@@ -8,7 +8,9 @@ const Sidebar = () => {
         bg-[#111827] text-white">
 
             <div>
-            <Link href="/dashboard" />
+            <Link href="/dashboard" >
+            logo
+            </Link>
             
             </div>
 
