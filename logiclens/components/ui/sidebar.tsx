@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import {Montserrat} from "next/font/google"
+import { cn } from '@/lib/utils';
 
     const montserrat=Montserrat({
         weight:"600",
@@ -23,7 +24,7 @@ const Sidebar = () => {
               
             </div>
 
-                <h1 className='text-2xl font-bold'>
+                <h1 className={cn('text-2xl font-bold' , montserrat.className)}>
                 Logic-AI
                 </h1>
 
