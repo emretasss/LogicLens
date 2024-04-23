@@ -22,6 +22,7 @@ import { LayoutDashboard } from 'lucide-react';
     ];
 
 
+
 const Sidebar = () => {
     return (   
 
@@ -41,7 +42,11 @@ const Sidebar = () => {
                 </h1>
 
             </Link>
+            <div className='space-y-1'>
             
+            
+            </div>
+
             </div>
 
 
