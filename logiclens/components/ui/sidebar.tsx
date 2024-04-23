@@ -4,14 +4,26 @@ import Link from 'next/link';
 import Image from 'next/image';
 import {Montserrat} from "next/font/google"
 import { cn } from '@/lib/utils';
+import { LayoutDashboard } from 'lucide-react';
 
     const montserrat=Montserrat({
         weight:"600",
         subsets:["latin"]
     });
 
+
+    const routes =[
+        {
+            label:"Dashboard",
+            icon:LayoutDashboard,
+            href: "/dashboard",
+            color:"text-sky-500"
+        }
+    ];
+
+
 const Sidebar = () => {
-    return ( 
+    return (   
 
         <div className="space-y-4 py-4 flex flex-col h-full
         bg-[#111827] text-white">
