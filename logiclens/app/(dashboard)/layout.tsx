@@ -1,3 +1,4 @@
+import Navbar from '../../components/ui/navbar';
 const DashboardLayout = (
  {
     children
@@ -13,6 +14,7 @@ const DashboardLayout = (
         side bar
         </div>
         <main className="md:pl-72">
+            <Navbar/>
         {children}
         </main>
     </div> );
