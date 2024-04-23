@@ -1,5 +1,6 @@
 import { Menu } from "lucide-react";
 import { Button } from '@/components/ui/button';
+import { UserButton } from '@clerk/nextjs';
 
 
 
@@ -10,6 +11,13 @@ const Navbar = () => {
         "> 
             <Menu />
         </Button>
+
+        <div className="flex w-full justify-end">
+            <UserButton afterSignOutUrl="/"/>
+        </div>
+
+
+
     </div> 
     
     );
