@@ -2,7 +2,12 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
+import {Montserrat} from "next/font/google"
 
+    const montserrat=Montserrat({
+        weight:"600",
+        subsets:["latin"]
+    });
 
 const Sidebar = () => {
     return ( 
@@ -18,8 +23,8 @@ const Sidebar = () => {
               
             </div>
 
-                <h1 className=''>
-                logiclens
+                <h1 className='text-2xl font-bold'>
+                Logic-AI
                 </h1>
 
             </Link>
