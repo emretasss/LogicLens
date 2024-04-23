@@ -1,5 +1,8 @@
-import Link from 'next/link';
 "use client";
+
+import Link from 'next/link';
+import Image from 'next/image';
+
 
 const Sidebar = () => {
     return ( 
@@ -7,9 +10,13 @@ const Sidebar = () => {
         <div className="space-y-4 py-4 flex flex-col h-full
         bg-[#111827] text-white">
 
-            <div>
-            <Link href="/dashboard" >
-            logo
+            <div className='px-3 py-2 flex-1'>
+            <Link href="/dashboard" className="flex items-center pl-3 mb-14" >
+            <div className='relative w-8 h-8 mr-4' >
+                
+              <Image fill alt="Logo"/>  
+              
+            </div>
             </Link>
             
             </div>
