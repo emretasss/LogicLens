@@ -17,6 +17,11 @@ const Sidebar = () => {
               <Image fill alt="Logo"/>  
               
             </div>
+
+                <h1 className=''>
+                logiclens
+                </h1>
+
             </Link>
             
             </div>
