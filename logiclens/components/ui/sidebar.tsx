@@ -43,7 +43,10 @@ const Sidebar = () => {
 
             </Link>
             <div className='space-y-1'>
-            
+                {routes.map((route)=>(
+                      <Link>
+                      </Link>
+                ))}
             
             </div>
 
