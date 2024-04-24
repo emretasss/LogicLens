@@ -8,7 +8,8 @@ import { LayoutDashboard,
     MessageSquare,
     ImageIcon,
     VideoIcon,
-    Music
+    Music,
+    Code
 
 } from 'lucide-react';
 
@@ -48,6 +49,12 @@ import { LayoutDashboard,
             icon:Music,
             href: "/dashboard",
             color:"text-emerald-700"
+        },
+        {
+            label:"Code Genaration",
+            icon:Code,
+            href: "/dashboard",
+            color:"text-green-700"
         },
 
         
