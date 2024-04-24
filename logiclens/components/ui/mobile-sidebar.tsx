@@ -7,11 +7,21 @@ import { Sheet,
      SheetTrigger
      } from '@/components/ui/sheet';
 import Sidebar from '@/components/ui/sidebar';
+import { useState } from 'react';
 
 
 
-//24.9rem (360px) is the width of the sidebar in our design system
+
+
+
+
 const MobileSidebar = () => {
+
+        const [isMounted,setIsMounted] =useState(false);
+    
+
+
+
     return ( 
         <Sheet>
             
