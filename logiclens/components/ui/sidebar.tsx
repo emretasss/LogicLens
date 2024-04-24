@@ -9,7 +9,8 @@ import { LayoutDashboard,
     ImageIcon,
     VideoIcon,
     Music,
-    Code
+    Code,
+    Settings
 
 } from 'lucide-react';
 
@@ -56,7 +57,11 @@ import { LayoutDashboard,
             href: "/dashboard",
             color:"text-green-700"
         },
-
+        {
+            label:"Setting",
+            icon:Settings,
+            href: "/dashboard",
+        }
         
     ];
 
