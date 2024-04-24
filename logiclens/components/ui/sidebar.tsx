@@ -23,31 +23,31 @@ import { LayoutDashboard,
             label:"Dashboard",
             icon:LayoutDashboard,
             href: "/dashboard",
-            color:"text-sky-500"
+            color:"text-sky-700"
         },
         {
             label:"Conversation",
             icon:MessageSquare,
             href: "/dashboard",
-            color:"text-violet-500"
+            color:"text-violet-700"
         },
         {
             label:"Image Genaration",
             icon:ImageIcon,
             href: "/dashboard",
-            color:"text-pink-500"
+            color:"text-pink-700"
         },
         {
             label:"Video Genaration",
             icon:VideoIcon,
             href: "/dashboard",
-            color:"text-orange-500"
+            color:"text-orange-700"
         },
         {
             label:"Music Genaration",
             icon:Music,
             href: "/dashboard",
-            color:"text-orange-500"
+            color:"text-emerald-700"
         },
 
         
