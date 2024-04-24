@@ -7,7 +7,7 @@ import { Sheet,
      SheetTrigger
      } from '@/components/ui/sheet';
 import Sidebar from '@/components/ui/sidebar';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 
 
@@ -18,7 +18,13 @@ import { useState } from 'react';
 const MobileSidebar = () => {
 
         const [isMounted,setIsMounted] =useState(false);
-    
+        useEffect(
+            ( )=>{
+                setIsMounted(true);
+             },[]
+        );
+
+        
 
 
 
