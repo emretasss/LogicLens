@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import {Montserrat} from "next/font/google"
 import { cn } from '@/lib/utils';
-import { LayoutDashboard } from 'lucide-react';
+import { LayoutDashboard,MessageSquare } from 'lucide-react';
 
     const montserrat=Montserrat({
         weight:"600",
@@ -18,7 +18,14 @@ import { LayoutDashboard } from 'lucide-react';
             icon:LayoutDashboard,
             href: "/dashboard",
             color:"text-sky-500"
-        }
+        },
+        {
+            label:"Conversation",
+            icon:MessageSquare,
+            href: "/dashboard",
+            color:"text-sky-500"
+        },
+        
     ];
 
 
