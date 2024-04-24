@@ -37,7 +37,7 @@ import { LayoutDashboard,
             label:"Image Genaration",
             icon:ImageIcon,
             href: "/image",
-            color:"text-pink-700"
+            color:"text-pink-500"
         },
         {
             label:"Video Genaration",
@@ -94,7 +94,9 @@ const Sidebar = () => {
                       >
 
                         <div className='flex items-center flex-1 '>
-                        <route.icon className=  { cn("h-5 w-5 mr-3", route.color) } /> {route.label}
+                        <route.icon className=  { cn("h-5 w-5 mr-3", route.color) } /> 
+                        
+                        {route.label}
                         </div>
                        
 
