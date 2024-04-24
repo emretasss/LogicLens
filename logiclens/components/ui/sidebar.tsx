@@ -13,6 +13,7 @@ import { LayoutDashboard,
     Settings
 
 } from 'lucide-react';
+import { usePathname } from '@/node_modules/next/navigation';
 
     const montserrat=Montserrat({
         weight:"600",
@@ -68,6 +69,9 @@ import { LayoutDashboard,
 
 
 const Sidebar = () => {
+
+    const pathname=usePathname();
+
     return (   
 
         <div className="space-y-4 py-4 flex flex-col h-full
