@@ -7,7 +7,8 @@ import { cn } from '@/lib/utils';
 import { LayoutDashboard,
     MessageSquare,
     ImageIcon,
-    VideoIcon
+    VideoIcon,
+    Music
 
 } from 'lucide-react';
 
@@ -39,6 +40,12 @@ import { LayoutDashboard,
         {
             label:"Video Genaration",
             icon:VideoIcon,
+            href: "/dashboard",
+            color:"text-orange-500"
+        },
+        {
+            label:"Music Genaration",
+            icon:Music,
             href: "/dashboard",
             color:"text-orange-500"
         },
