@@ -7,7 +7,7 @@ import { Menu } from 'lucide-react';
 const MobileSidebar = () => {
     return ( 
 
-        <Button   >
+    <Button variant="ghost" size="icon" className='md:hidden'  >
             <Menu />
         </Button>
 
