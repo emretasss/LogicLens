@@ -2,20 +2,20 @@
 
 import { Button } from '@/components/ui/button';
 import { Menu } from 'lucide-react';
-import { Sheet } from '@/components/ui/sheet';
+import { Sheet, SheetTrigger } from '@/components/ui/sheet';
 
 
 const MobileSidebar = () => {
     return ( 
         <Sheet>
-
+            <SheetTrigger>
           <Button variant="ghost" size="icon" className='md:hidden'  >
 
             <Menu />
 
 
         </Button>
-        
+          </SheetTrigger>
         </Sheet>
      );
 }
