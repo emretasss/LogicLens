@@ -23,7 +23,7 @@ import { LayoutDashboard,MessageSquare } from 'lucide-react';
             label:"Conversation",
             icon:MessageSquare,
             href: "/dashboard",
-            color:"text-sky-500"
+            color:"text-violet-500"
         },
         
     ];
