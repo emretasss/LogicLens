@@ -25,6 +25,12 @@ import { LayoutDashboard,MessageSquare,ImageIcon } from 'lucide-react';
             href: "/dashboard",
             color:"text-violet-500"
         },
+        {
+            label:"Image Genaration",
+            icon:ImageIcon,
+            href: "/dashboard",
+            color:"text-violet-500"
+        },
         
     ];
 
