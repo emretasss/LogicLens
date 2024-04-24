@@ -33,9 +33,9 @@ import { LayoutDashboard,MessageSquare,ImageIcon,VideoIcon } from 'lucide-react'
         },
         {
             label:"Video Genaration",
-            icon:ImageIcon,
+            icon:VideoIcon,
             href: "/dashboard",
-            color:"text-pink-500"
+            color:"text-white-500"
         },
 
         
