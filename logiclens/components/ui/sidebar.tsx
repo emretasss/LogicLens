@@ -58,9 +58,9 @@ import { LayoutDashboard,
             color:"text-green-700"
         },
         {
-            label:"Setting",
+            label:"Settings",
             icon:Settings,
-            href: "/dashboard",
+            href: "/settings",
         }
         
     ];
