@@ -3,8 +3,8 @@
 const DashboardPage = () => {
   return (
     <div  className="mb-8 space-y-4">
-    <p>Dashboard Page protected </p>
-
+    <h1 className="text-2xl md:text-4xl font-bold tet-center">Explore the powe of AI</h1>
+   
    
     </div>
     );
