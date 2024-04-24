@@ -24,7 +24,9 @@ const MobileSidebar = () => {
              },[]
         );
 
-        
+        if (!isMounted) {
+            return null;
+        }
 
 
 
