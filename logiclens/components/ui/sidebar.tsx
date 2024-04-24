@@ -30,31 +30,31 @@ import { LayoutDashboard,
         {
             label:"Conversation",
             icon:MessageSquare,
-            href: "/dashboard",
+            href: "/conversation",
             color:"text-violet-700"
         },
         {
             label:"Image Genaration",
             icon:ImageIcon,
-            href: "/dashboard",
+            href: "/image",
             color:"text-pink-700"
         },
         {
             label:"Video Genaration",
             icon:VideoIcon,
-            href: "/dashboard",
+            href: "/video",
             color:"text-orange-700"
         },
         {
             label:"Music Genaration",
             icon:Music,
-            href: "/dashboard",
+            href: "/music",
             color:"text-emerald-700"
         },
         {
             label:"Code Genaration",
             icon:Code,
-            href: "/dashboard",
+            href: "/code",
             color:"text-green-700"
         },
         {
