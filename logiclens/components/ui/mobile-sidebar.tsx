@@ -9,6 +9,9 @@ import { Sheet,
 import Sidebar from '@/components/ui/sidebar';
 
 
+
+//24.04
+
 const MobileSidebar = () => {
     return ( 
         <Sheet>
@@ -22,9 +25,6 @@ const MobileSidebar = () => {
 
             
             </SheetTrigger>
-
-        
-         
 
             <SheetContent side="left" className="p-0" > 
             <Sidebar/>
