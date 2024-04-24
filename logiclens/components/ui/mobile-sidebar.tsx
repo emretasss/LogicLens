@@ -10,8 +10,7 @@ import Sidebar from '@/components/ui/sidebar';
 
 
 
-//24.04
-
+//24.9rem (360px) is the width of the sidebar in our design system
 const MobileSidebar = () => {
     return ( 
         <Sheet>
