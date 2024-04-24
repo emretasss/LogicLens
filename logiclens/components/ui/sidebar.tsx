@@ -4,7 +4,12 @@ import Link from 'next/link';
 import Image from 'next/image';
 import {Montserrat} from "next/font/google"
 import { cn } from '@/lib/utils';
-import { LayoutDashboard,MessageSquare,ImageIcon,VideoIcon } from 'lucide-react';
+import { LayoutDashboard,
+    MessageSquare,
+    ImageIcon,
+    VideoIcon
+
+} from 'lucide-react';
 
     const montserrat=Montserrat({
         weight:"600",
@@ -35,7 +40,7 @@ import { LayoutDashboard,MessageSquare,ImageIcon,VideoIcon } from 'lucide-react'
             label:"Video Genaration",
             icon:VideoIcon,
             href: "/dashboard",
-            color:"text-white-500"
+            color:"text-orange-500"
         },
 
         
