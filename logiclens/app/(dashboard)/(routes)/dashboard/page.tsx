@@ -23,8 +23,8 @@ const tools=[
   {
     label:" Image Generation",
     icon:Image,
-    color:" text-pink-500 ",
-    bgColor:"bg-pink-500/100",
+    color:" text-pink-700 ",
+    bgColor:"bg-pink-700/100",
     href:"/conversation"
   },
   {
