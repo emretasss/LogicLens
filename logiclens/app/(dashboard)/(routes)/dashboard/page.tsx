@@ -2,17 +2,46 @@
 
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
-import { MessageSquare,ArrowRight } from "lucide-react";
+import { MessageSquare,ArrowRight,Music,Image,Code,Video } from "lucide-react";
 
 
 const tools=[
+  {
+    label:" Conversation",
+    icon:MessageSquare, 
+    color:" text-violet-500 ",
+    bgColor:"bg-violet-500/100",
+    href:"/conversation"
+  },
+  {
+    label:" Music Generation",
+    icon:Music,
+    color:" text-emerald-500 ",
+    bgColor:"bg-emerald-500/100",
+    href:"/music"
+  },
+  {
+    label:" Image Generation",
+    icon:Image,
+    color:" text-pink-500 ",
+    bgColor:"bg-pink-500/100",
+    href:"/conversation"
+  },
   {
     label:" Conversation",
     icon:MessageSquare,
     color:" text-violet-500 ",
     bgColor:"bg-violet-500/100",
     href:"/conversation"
-  }
+  },
+  {
+    label:" Conversation",
+    icon:MessageSquare,
+    color:" text-violet-500 ",
+    bgColor:"bg-violet-500/100",
+    href:"/conversation"
+  },
+  
 ]
 
 const DashboardPage = () => {
