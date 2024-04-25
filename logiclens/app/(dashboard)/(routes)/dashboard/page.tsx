@@ -42,7 +42,9 @@ const DashboardPage = () => {
         <tool.icon  />
         </div>
         </div>
+        <div className="font-semibold">
 
+        </div>
 
 
         </Card>
