@@ -1,5 +1,6 @@
 "use client";
 
+import { Card } from "@/components/ui/card";
 import { MessageSquare } from "lucide-react";
 
 
@@ -26,15 +27,14 @@ const DashboardPage = () => {
     </p>
     <div className="px-4 md:px-20  lg:px-32 spacce-y-4">
 
-    {
-      tools.map((tool)=(
-
-
-      )
-      
-      );
+              
         
-    }
+     
+      
+      
+     
+        
+    
     </div>
     </div>
     );
