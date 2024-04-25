@@ -34,7 +34,10 @@ const DashboardPage = () => {
       tools.map((tool) =>(
         <Card key={tool.href}  
         className="p-4 border-black/5 flex items-center justify-between hover:shadow-md transition cursor-pointer"
-        >
+        > 
+
+        
+
 
         </Card>
       ))
