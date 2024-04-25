@@ -30,8 +30,8 @@ const tools=[
   {
     label:"Video Generation",
     icon:Video,
-    color:" text-violet-500 ",
-    bgColor:"bg-violet-500/100",
+    color:" text-orange-500 ",
+    bgColor:"bg-orange-500/100",
     href:"/video"
   },
   {
