@@ -29,14 +29,14 @@ const tools=[
   },
   {
     label:"Video Generation",
-    icon:MessageSquare,
+    icon:Video,
     color:" text-violet-500 ",
     bgColor:"bg-violet-500/100",
     href:"/video"
   },
   {
-    label:"Code Generation",
-    icon:MessageSquare,
+    label:"Code",
+    icon:Code,
     color:" text-violet-500 ",
     bgColor:"bg-violet-500/100",
     href:"/code"
