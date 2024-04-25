@@ -37,8 +37,8 @@ const tools=[
   {
     label:"Code",
     icon:Code,
-    color:" text-violet-500 ",
-    bgColor:"bg-violet-500/100",
+    color:" text-green-500 ",
+    bgColor:"bg-green-500/100",
     href:"/code"
   },
   
