@@ -44,9 +44,9 @@ const DashboardPage = () => {
         <div className="font-semibold">
         {tool.label}
        
-        </div> <ArrowRight />
+        </div> 
         </div>
-       
+       <ArrowRight className="w-5 h-5" />
 
 
         </Card>
