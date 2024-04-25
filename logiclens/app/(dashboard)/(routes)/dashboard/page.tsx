@@ -28,14 +28,14 @@ const tools=[
     href:"/conversation"
   },
   {
-    label:" Conversation",
+    label:"Video Generation",
     icon:MessageSquare,
     color:" text-violet-500 ",
     bgColor:"bg-violet-500/100",
     href:"/conversation"
   },
   {
-    label:" Conversation",
+    label:"Code Generation",
     icon:MessageSquare,
     color:" text-violet-500 ",
     bgColor:"bg-violet-500/100",
