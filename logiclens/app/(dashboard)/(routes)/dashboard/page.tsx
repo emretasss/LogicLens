@@ -40,12 +40,13 @@ const DashboardPage = () => {
         <div className={cn("p-2 w-fit rounded-md", tool.color)}>
 
         <tool.icon  />
-        </div>
-        </div>
+        </div> 
         <div className="font-semibold">
         {tool.label}
         
         </div>
+        </div>
+       
 
 
         </Card>
