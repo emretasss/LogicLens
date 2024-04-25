@@ -25,21 +25,21 @@ const tools=[
     icon:Image,
     color:" text-pink-700 ",
     bgColor:"bg-pink-700/100",
-    href:"/conversation"
+    href:"/image"
   },
   {
     label:"Video Generation",
     icon:MessageSquare,
     color:" text-violet-500 ",
     bgColor:"bg-violet-500/100",
-    href:"/conversation"
+    href:"/video"
   },
   {
     label:"Code Generation",
     icon:MessageSquare,
     color:" text-violet-500 ",
     bgColor:"bg-violet-500/100",
-    href:"/conversation"
+    href:"/code"
   },
   
 ]
