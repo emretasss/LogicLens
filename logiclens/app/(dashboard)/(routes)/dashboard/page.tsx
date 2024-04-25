@@ -43,8 +43,8 @@ const DashboardPage = () => {
         </div> 
         <div className="font-semibold">
         {tool.label}
-        <ArrowRight />
-        </div>
+       
+        </div> <ArrowRight />
         </div>
        
 
