@@ -2,6 +2,7 @@
 
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
+import { useRouter } from "next/navigation";
 import { MessageSquare,ArrowRight,Music,Image,Code,Video } from "lucide-react";
 
 
@@ -47,9 +48,12 @@ const tools=[
 const DashboardPage = () => {
 
 
-
+const router =useRouter();
 
   return (
+
+      
+
     <div  className="mb-8 space-y-4">
     <h1 className="text-2xl md:text-4xl font-bold text-center">Explore the powe of AI</h1>
     <p className="text-muted-foreground font-ligt   text-sm md:text-lg text-center ">
@@ -62,7 +66,7 @@ const DashboardPage = () => {
      {
 
       tools.map((tool) =>(
-        <Card key={tool.href}  
+        <Card onClick={()=> router.push(tool.href)} key={tool.href}  
         className="p-4 border-black/5 flex items-center justify-between hover:shadow-md transition cursor-pointer"
         > 
         <div className="flex items-center gap-x-4">
