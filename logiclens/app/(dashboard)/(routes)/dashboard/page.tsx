@@ -29,7 +29,16 @@ const DashboardPage = () => {
 
               
         
-     
+     {
+
+      tools.map((tool) =>(
+        <Card>
+          
+        </Card>
+      ))
+
+
+     }
       
       
      
