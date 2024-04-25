@@ -2,7 +2,7 @@
 
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
-import { MessageSquare } from "lucide-react";
+import { MessageSquare,ArrowRight } from "lucide-react";
 
 
 const tools=[
@@ -43,7 +43,7 @@ const DashboardPage = () => {
         </div> 
         <div className="font-semibold">
         {tool.label}
-        
+        <ArrowRight />
         </div>
         </div>
        
