@@ -10,10 +10,13 @@ interface   HeadingProps{
 
 
 
-export const heading = ( 
-    
+export const heading = ( {
+    title,
+    description,
+ 
+    bgColor
 
-) => {
+}:HeadingProps) => {
 
 
     return ( <div>
