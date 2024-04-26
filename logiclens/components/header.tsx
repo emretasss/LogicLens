@@ -5,6 +5,7 @@ interface   HeadingProps{
     desciption:string;
     icon:LucideIcon;
     iconColor?:string;
+    bgColor?:string;
 }
 
 
