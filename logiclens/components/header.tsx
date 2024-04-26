@@ -13,7 +13,8 @@ interface   HeadingProps{
 export const heading = ( {
     title,
     description,
- 
+    icon,
+    iconColor,
     bgColor
 
 }:HeadingProps) => {
