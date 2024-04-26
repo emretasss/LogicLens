@@ -3,7 +3,8 @@ import { LucideIcon } from "lucide-react";
 interface   HeadingProps{
     title :string ;
     desciption:string;
-    icon:LucideIcon
+    icon:LucideIcon;
+    iconColor?:string;
 }
 
 
