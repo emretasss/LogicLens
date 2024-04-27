@@ -3,7 +3,7 @@ import * as z from "zod";
 import { Heading } from '@/components/header';
 import { useForm} from 'react-hook-form';
 import { MessageSquare } from 'lucide-react';
-
+import {zodResolver} from  "@hookform/resolvers/zod"
 import { formSchome } from "./constans";
 
 
