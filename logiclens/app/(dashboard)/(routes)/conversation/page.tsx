@@ -8,7 +8,7 @@ import { formSchome } from "./constans";
 
 
 const conversation = () => {
-         const form =useForm({
+         const form =useForm<z.infer<typeof formSchome>>({
             defaultValues: {
                 prompt:""
             }
