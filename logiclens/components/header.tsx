@@ -23,7 +23,7 @@ export const Heading = ( {
     return (
         <>
         
-     <div>
+     <div  className="px-4 lg:px-8 flex items-center gap-x-3 mb-8" >
         heading component
             
     </div> 
