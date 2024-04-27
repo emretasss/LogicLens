@@ -1,4 +1,5 @@
 import { Heading } from '@/components/header';
+import { MessageSquare } from 'lucide-react';
 
 
 
@@ -8,7 +9,11 @@ const conversation = () => {
     
     <div>
       
-        <Heading title={''} description={''} icon={undefined}>
+        <Heading title={'Conversation'}
+         description={'Our most advanced conversation model.'} 
+         icon={MessageSquare} 
+
+         >
             
         </Heading>
         
