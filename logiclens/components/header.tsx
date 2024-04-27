@@ -10,7 +10,7 @@ interface   HeadingProps{
 
 
 
-export const heading = ( {
+export const Heading = ( {
     title,
     description,
     icon,

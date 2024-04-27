@@ -1,8 +1,19 @@
-const conversation = () => {
-    return (    <div>
+import { Heading } from '@/components/header';
 
-        conversation page
-    </div> );
+
+
+
+const conversation = () => {
+    return (  
+    
+    <div>
+      
+        <Heading title={''} description={''} icon={undefined}>
+            
+        </Heading>
+        
+    </div>
+     );
 }
  
 export default conversation;
