@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils";
 import { LucideIcon } from "lucide-react";
 
 interface   HeadingProps{
@@ -13,7 +14,7 @@ interface   HeadingProps{
 export const Heading = ( {
     title,
     description,
-    icon,
+    icon :Icon,
     iconColor,
     bgColor
 
@@ -24,8 +25,10 @@ export const Heading = ( {
         <>
         
      <div  className="px-4 lg:px-8 flex items-center gap-x-3 mb-8" >
-        heading component
-            
+        <div className={cn(" p-2 w-fit rounded-md ",bgColor)}>
+
+
+            </div>            
     </div> 
 
     </>
