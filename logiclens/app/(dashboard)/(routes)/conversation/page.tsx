@@ -6,12 +6,13 @@ import { MessageSquare } from 'lucide-react';
 
 
 const conversation = () => {
-    return (  
-        const form =useForm({
+         const form =useForm({
             defaultValues: {
                 prompt:""
             }
         });
+    return (  
+   
     <div>
       
         <Heading title={'Conversation'}
