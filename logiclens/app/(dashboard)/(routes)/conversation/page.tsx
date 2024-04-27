@@ -1,3 +1,5 @@
+"use client";
+
 import { Heading } from '@/components/header';
 import { useForm} from 'react-hook-form';
 import { MessageSquare } from 'lucide-react';
@@ -10,7 +12,7 @@ const conversation = () => {
             defaultValues: {
                 prompt:""
             }
-        });
+        }); 
     return (  
    
     <div>
