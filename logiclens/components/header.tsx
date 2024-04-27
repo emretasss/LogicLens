@@ -20,9 +20,16 @@ export const Heading = ( {
 }:HeadingProps) => {
 
 
-    return ( <div>
+    return (
+        <>
+        
+     <div>
         heading component
             
-    </div> );
+    </div> 
+
+    </>
+    
+    );
 }
  
