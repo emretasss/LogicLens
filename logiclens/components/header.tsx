@@ -34,6 +34,7 @@ export const Heading = ( {
         </h2>
             <p className="text-sm text-muted-foreground">
                 {description}
+                
             </p>
     </div>
 
