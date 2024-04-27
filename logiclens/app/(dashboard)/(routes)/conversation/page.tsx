@@ -9,6 +9,7 @@ import { formSchome } from "./constans";
 
 const conversation = () => {
          const form =useForm<z.infer<typeof formSchome>>({
+            resolver:zodResolver(formSchome),
             defaultValues: {
                 prompt:""
             }
