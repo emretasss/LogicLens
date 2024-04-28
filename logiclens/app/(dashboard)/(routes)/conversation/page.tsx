@@ -12,6 +12,7 @@ import { Form,
     
     } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
 
 
 
@@ -80,7 +81,9 @@ const conversation = () => {
                     ) }
                     />
 
-                   
+                   <Button className="col-span-12 " >
+
+                   </Button>
                 
                 </form>
 
