@@ -49,7 +49,9 @@ const conversation = () => {
                 px-3
                 md:px-6
                 focus-within:shadow-sm
-               
+                grid
+                grid-cols-12
+                gap-2
                 
                 "
                 >
