@@ -7,6 +7,10 @@ import {zodResolver} from  "@hookform/resolvers/zod"
 import { formSchome } from "./constans";
 
 
+
+
+
+
 const conversation = () => {
          const form =useForm<z.infer<typeof formSchome>>({
             resolver:zodResolver(formSchome),
@@ -14,6 +18,10 @@ const conversation = () => {
                 prompt:""
             }
         }); 
+
+        
+
+
     return (  
    
     <div>
