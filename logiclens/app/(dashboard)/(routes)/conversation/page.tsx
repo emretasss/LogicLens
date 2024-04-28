@@ -6,6 +6,7 @@ import { MessageSquare } from 'lucide-react';
 import {zodResolver} from  "@hookform/resolvers/zod"
 import { formSchome } from "./constans";
 import { Form } from "@/components/ui/form";
+import { on } from "events";
 
 
 
@@ -39,8 +40,13 @@ const conversation = () => {
         />
         <div className="px-4 lg:px-8">
         <div>
-            <Form>  
+            <Form  {...form}>  
+                <form   onSubmit={form.handleSubmit(onsubmit)} 
                 
+                >
+                
+                
+                </form>
             </Form>
         </div>
         </div>
