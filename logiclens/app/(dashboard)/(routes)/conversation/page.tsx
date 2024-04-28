@@ -11,6 +11,7 @@ import { Form,
      FormItem
     
     } from "@/components/ui/form";
+import { Input } from "@/components/ui/input";
 
 
 
@@ -64,6 +65,9 @@ const conversation = () => {
                     render={({ field } ) => (
                         <FormItem >
                             <FormControl className="m-0 p-0">
+
+                            <Input className="border-0 outline-none" />
+
 
 
                             </FormControl>
