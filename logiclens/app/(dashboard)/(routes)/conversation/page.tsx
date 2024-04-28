@@ -22,9 +22,9 @@ const conversation = () => {
         const isLoading =form.formState.isSubmitting;
 
         const onSubmit=async(values :z.infer<typeof formSchome>)=>{
-            
-                 console.log(values);
-             };
+             await form.handleSubmit( async (values) =>{
+                 console.log("Data", data);
+             }) (values );
 
     return (  
    
