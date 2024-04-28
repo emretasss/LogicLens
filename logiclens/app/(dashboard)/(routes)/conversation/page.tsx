@@ -82,7 +82,7 @@ const conversation = () => {
                     />
 
                    <Button className="col-span-12 " >
-
+                                Generate
                    </Button>
                 
                 </form>
