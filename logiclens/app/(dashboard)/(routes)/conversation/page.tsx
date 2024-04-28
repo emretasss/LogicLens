@@ -84,7 +84,9 @@ const conversation = () => {
                     ) }
                     />
 
-                   <Button className="col-span-12 lg:col-span-2" >
+                   <Button className="col-span-12 lg:col-span-2" 
+                    disabled={isLoading} 
+                   >
                      Generate
                    </Button>
                 
