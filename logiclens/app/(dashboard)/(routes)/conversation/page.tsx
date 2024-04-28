@@ -5,7 +5,12 @@ import { useForm} from 'react-hook-form';
 import { MessageSquare } from 'lucide-react';
 import {zodResolver} from  "@hookform/resolvers/zod"
 import { formSchome } from "./constans";
-import { Form,FormField, FormItem } from "@/components/ui/form";
+import { Form,
+    FormControl,
+    FormField,
+     FormItem
+    
+    } from "@/components/ui/form";
 
 
 
@@ -56,9 +61,12 @@ const conversation = () => {
                 > 
                     <FormField 
                     name="prompt"
-                    render={({field} ) => (
+                    render={({ field } ) => (
                         <FormItem >
+                            <FormControl className="m-0 p-0">
 
+
+                            </FormControl>
                         </FormItem>
                     ) }
                     />
