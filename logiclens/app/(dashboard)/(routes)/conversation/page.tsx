@@ -70,7 +70,7 @@ const conversation = () => {
                             
                                 disabled={isLoading}
                                 placeholder="how do I calculate the radius of the circle?"
-                                
+                                {...field}
                             />
 
 
