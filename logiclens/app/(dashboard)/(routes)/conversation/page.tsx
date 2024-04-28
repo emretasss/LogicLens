@@ -42,7 +42,11 @@ const conversation = () => {
         <div>
             <Form  {...form}>  
                 <form   onSubmit={form.handleSubmit(onsubmit)} 
+                className="rounded-lg
+                border
+                w-full
                 
+                "
                 >
                 
                 
