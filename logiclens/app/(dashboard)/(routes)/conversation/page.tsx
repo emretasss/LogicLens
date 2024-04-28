@@ -5,6 +5,7 @@ import { useForm} from 'react-hook-form';
 import { MessageSquare } from 'lucide-react';
 import {zodResolver} from  "@hookform/resolvers/zod"
 import { formSchome } from "./constans";
+import { Form } from "@/components/ui/form";
 
 
 
@@ -36,7 +37,13 @@ const conversation = () => {
         iconColor="text-violet-500"
         bgColor='bg-violet-500/10'
         />
-            
+        <div className="px-4 lg:px-8">
+        <div>
+            <Form>  
+                
+            </Form>
+        </div>
+        </div>
         
         
     </div>
