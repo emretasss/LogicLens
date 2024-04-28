@@ -46,7 +46,7 @@ const conversation = () => {
         <div className="px-4 lg:px-8">
         <div>
             <Form  {...form}>  
-                <form   onSubmit={form.handleSubmit(onsubmit)} 
+                <form   onSubmit={form.handleSubmit(onSubmit)} 
                 className="rounded-lg
                 border
                 w-full
@@ -66,7 +66,7 @@ const conversation = () => {
                         <FormItem >
                             <FormControl className="m-0 p-0">
 
-                            <Input className="border-0 outline-none" />
+                            <Input className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent " />
 
 
 
