@@ -82,8 +82,8 @@ const conversation = () => {
                     ) }
                     />
 
-                   <Button className="col-span-12 lg:col-span-2 " >
-                                Generate
+                   <Button className="col-span-12 lg:col-span-2" >
+                     Generate
                    </Button>
                 
                 </form>
