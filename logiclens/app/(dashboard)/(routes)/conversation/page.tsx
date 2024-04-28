@@ -5,8 +5,7 @@ import { useForm} from 'react-hook-form';
 import { MessageSquare } from 'lucide-react';
 import {zodResolver} from  "@hookform/resolvers/zod"
 import { formSchome } from "./constans";
-import { Form,FormField } from "@/components/ui/form";
-import { on } from "events";
+import { Form,FormField, FormItem } from "@/components/ui/form";
 
 
 
@@ -54,13 +53,26 @@ const conversation = () => {
                 gap-2
                 
                 "
-                >
+                > 
+                    <FormField 
+                    name="prompt"
+                    render={({field} ) => (
+                        <FormItem >
+
+                        </FormItem>
+                    ) }
+                    />
+
+                   
+                
+                </form>
 
             
 
 
                 
-                </form>
+               
+                
             </Form>
         </div>
         </div>
