@@ -6,3 +6,16 @@ const configuration=new Configuration({
 });
 
 const openai=new OpenAIApi(configuration);
+
+
+export async function POST(
+    req:Request
+) {
+    try{
+
+    }
+    catch(error) {
+        console.log("[CONVERSATİON_ERROR]",error);
+    }
+
+}
