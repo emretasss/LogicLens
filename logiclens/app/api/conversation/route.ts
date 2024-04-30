@@ -19,6 +19,12 @@ export async function POST(
  {
     try{
         const {userId} = auth();
+        const body= await req.json();
+        const { messages } =body;
+
+        if(!userId){
+            return new NextResponse("Unauthorized", { status :401 })
+        }
     }
     catch(error) {
         console.log("[CONVERSATİON_ERROR]",error);
