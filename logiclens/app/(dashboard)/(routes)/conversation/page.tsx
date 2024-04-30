@@ -3,9 +3,12 @@
 import axios from axios;
 import * as z from "zod";
 import { Heading } from '@/components/header';
-import { useForm} from 'react-hook-form';
 import { MessageSquare } from 'lucide-react';
+import { useForm} from 'react-hook-form';
+
 import {zodResolver} from  "@hookform/resolvers/zod"
+import { useRouter } from "next/router";
+
 import { formSchome } from "./constans";
 import { Button } from "@/components/ui/button";
 
@@ -19,6 +22,9 @@ import { Input } from "@/components/ui/input";
 
 
 const conversation = () => {
+            const router =useRouter();
+
+
          const form =useForm<z.infer<typeof formSchome>>({
             resolver:zodResolver(formSchome),
             defaultValues: {
@@ -29,8 +35,14 @@ const conversation = () => {
         const isLoading =form.formState.isSubmitting;
 
         const onSubmit=async(values :z.infer<typeof formSchome>)=>{
+                try {
+                    
+                } catch (error: any) {
+                    
+                } finally{
 
-                 console.log( values);
+                }
+
              };
 
     return (  
