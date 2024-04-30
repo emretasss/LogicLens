@@ -23,7 +23,10 @@ export async function POST(
         const { messages } =body;
 
         if(!userId){
-            return new NextResponse("Unauthorized", { status :401 })
+            return new NextResponse("Unauthorized", { status :401 });
+        }
+        if(!configuration.apiKey){
+            return new NextResponse("OpenAI api key not configured ", { status :500 });
         }
     }
     catch(error) {
