@@ -8,7 +8,7 @@ import { useForm} from 'react-hook-form';
 
 import {zodResolver} from  "@hookform/resolvers/zod"
 import { useRouter } from "next/router";
-
+import ChatCompletionRequestMessage from "openai";
 import { formSchome } from "./constans";
 import { Button } from "@/components/ui/button";
 
@@ -19,11 +19,12 @@ import { Form,
     
     } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
+import { useState } from "react";
 
 
 const conversation = () => {
             const router =useRouter();
-
+            const [Messages,setMessages]=useState<ChatCompletionRequestMessage[]>([]);
 
          const form =useForm<z.infer<typeof formSchome>>({
             resolver:zodResolver(formSchome),
