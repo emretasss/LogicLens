@@ -44,7 +44,7 @@ export async function POST(
 
     }
     catch(error) {
-        console.log("[CONVERSATİON_ERROR]",error);
+        console.log("[CONVERSATION_ERROR]",error);
         return new NextResponse(" Internal error ", {status : 500});
     }
 
