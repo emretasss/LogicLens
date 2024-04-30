@@ -40,7 +40,7 @@ const conversation = () => {
                 } catch (error: any) {
                     
                 } finally{
-
+                    router.refresh();
                 }
 
              };
