@@ -16,11 +16,6 @@ import { Form,
 import { Input } from "@/components/ui/input";
 
 
-
-
-
-
-
 const conversation = () => {
          const form =useForm<z.infer<typeof formSchome>>({
             resolver:zodResolver(formSchome),
@@ -79,7 +74,6 @@ const conversation = () => {
                             />
 
 
-
                             </FormControl>
                         </FormItem>
                     ) }
@@ -93,12 +87,6 @@ const conversation = () => {
                 
                 </form>
 
-            
-
-
-                
-               
-                
             </Form>
         </div>
         <div className="space-y-4 mt-4">
