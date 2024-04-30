@@ -40,6 +40,7 @@ export async function POST(
                 model:"gpt-3.5-turbo",
                 messages
             })
+            return NextResponse.json(response.data.choices[0])
 
     }
     catch(error) {
