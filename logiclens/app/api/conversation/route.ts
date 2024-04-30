@@ -1,4 +1,5 @@
 
+import { auth } from '@clerk/nextjs';
 import { NextResponse } from 'next/server';
 import {Configuration , OpenAIApi} from 'openai';
 
@@ -11,9 +12,13 @@ const openai=new OpenAIApi(configuration);
 
 export async function POST(
     req:Request
-) {
+
+
+
+)
+ {
     try{
-        
+        const {userId} = auth();
     }
     catch(error) {
         console.log("[CONVERSATİON_ERROR]",error);
