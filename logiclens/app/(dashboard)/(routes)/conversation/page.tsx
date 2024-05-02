@@ -49,6 +49,7 @@ const conversation = () => {
                     setMessages((current) => [...current,userMessage,response.data])
                     form.reset();
                 } catch (error: any) {
+                    // todo open pro modal
                     console.log(error);
                     
                 } finally{
