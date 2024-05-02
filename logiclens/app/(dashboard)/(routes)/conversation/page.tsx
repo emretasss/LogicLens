@@ -47,6 +47,7 @@ const conversation = () => {
                         Messages:newMessages,
                     })
                     setMessages((current) => [...current,userMessage,response.data])
+                    form.reset();
                 } catch (error: any) {
                     
                 } finally{
