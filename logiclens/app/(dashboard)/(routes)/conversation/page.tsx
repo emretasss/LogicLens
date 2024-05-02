@@ -37,7 +37,11 @@ const conversation = () => {
 
         const onSubmit=async(values :z.infer<typeof formSchome>)=>{
                 try {
-                    
+                    const userMessage: ChatCompletionRequestMessage ={
+                        role:"user",
+                        content:values.prompt,
+                        
+                    };
                 } catch (error: any) {
                     
                 } finally{
