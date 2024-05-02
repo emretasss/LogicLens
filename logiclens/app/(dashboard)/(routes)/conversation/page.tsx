@@ -6,7 +6,7 @@ import { useForm } from 'react-hook-form';
 
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useRouter } from "next/navigation";
-import ChatCompletionRequestMessage from "openai";
+import {ChatCompletionRequestMessage} from "openai";
 import { formSchome } from "./constans";
 import { Button } from "@/components/ui/button";
 
@@ -25,7 +25,7 @@ import axios from "axios"
 
 const conversation = () => {
     const router = useRouter();
-    const [Messages, setMessages] = useState<ChatCompletionRequestMessage[]>([]);
+    const [messages, setMessages] = useState<ChatCompletionRequestMessage[]>([]);
 
     const form = useForm<z.infer<typeof formSchome>>({
         resolver: zodResolver(formSchome),
@@ -43,9 +43,9 @@ const conversation = () => {
                 content: values.prompt,
 
             };
-            const newMessages = [...Messages, userMessage];
+            const newMessages = [...messages, userMessage];
             const response = await axios.post("/api/conversation", {
-                Messages: newMessages,
+                messages: newMessages,
             })
             setMessages((current) => [...current, userMessage, response.data])
             form.reset();
@@ -119,9 +119,9 @@ const conversation = () => {
                 </div>
                 <div className="space-y-4 mt-4">
                     <div className="flex flex-col-reverse gap-y-4">
-                            {Messages.map((message) => (
+                            {messages.map((message) => (
                                 <div key={message.content}>
-
+                                        {message.content}
                                 </div>
                             ))}
                     </div>
