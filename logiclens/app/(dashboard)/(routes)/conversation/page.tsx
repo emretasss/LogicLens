@@ -118,7 +118,13 @@ const conversation = () => {
                     </Form>
                 </div>
                 <div className="space-y-4 mt-4">
-                    Messages content
+                    <div className="flex flex-col-reverse gap-y-4">
+                            {Messages.map((message) => (
+                                <div key={message.content}>
+
+                                </div>
+                            ))}
+                    </div>
                 </div>
             </div>
 
