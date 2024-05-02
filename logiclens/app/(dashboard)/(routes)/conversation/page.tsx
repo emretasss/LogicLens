@@ -1,6 +1,4 @@
 "use client";
-
-import axios from axios;
 import * as z from "zod";
 import { Heading } from '@/components/header';
 import { MessageSquare } from 'lucide-react';
@@ -40,8 +38,6 @@ const conversation = () => {
                 } catch (error: any) {
                     
                 } finally{
-                    router.refresh();
-                    
                 }
 
              };
