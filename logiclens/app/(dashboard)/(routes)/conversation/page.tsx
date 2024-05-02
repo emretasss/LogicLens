@@ -46,7 +46,7 @@ const conversation = () => {
                     const response = await axios.post("/api/conversation" ,{
                         Messages:newMessages,
                     })
-
+                    setMessages((current) => [...current,userMessage,response.data])
                 } catch (error: any) {
                     
                 } finally{
