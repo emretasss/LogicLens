@@ -5,7 +5,7 @@ import { MessageSquare } from 'lucide-react';
 import { useForm} from 'react-hook-form';
 
 import {zodResolver} from  "@hookform/resolvers/zod"
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import ChatCompletionRequestMessage from "openai";
 import { formSchome } from "./constans";
 import { Button } from "@/components/ui/button";
