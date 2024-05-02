@@ -40,8 +40,10 @@ const conversation = () => {
                     const userMessage: ChatCompletionRequestMessage ={
                         role:"user",
                         content:values.prompt,
-                        
+
                     };
+                    const newMessages=[...Messages,userMessage];
+                    
                 } catch (error: any) {
                     
                 } finally{
