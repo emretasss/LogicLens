@@ -21,7 +21,6 @@ import { Form,
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
 
-
 const conversation = () => {
             const router =useRouter();
             const [Messages,setMessages]=useState<ChatCompletionRequestMessage[]>([]);
@@ -42,6 +41,7 @@ const conversation = () => {
                     
                 } finally{
                     router.refresh();
+                    
                 }
 
              };
