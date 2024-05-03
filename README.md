@@ -15,10 +15,10 @@ LogicLens Platform is a free SaaS (Software as a Service) application where you 
 
 ## Free Limits
 
-- Image size: Maximum 5MB
-- Video length: Maximum 1 minute
-- Music file size: Maximum 10MB
-- Code execution time: Maximum 1 minute
+- Image size: 
+- Video length: 
+- Music file size: 
+- Code execution time: 
 
 
 
