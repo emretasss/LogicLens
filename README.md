@@ -26,6 +26,3 @@ LogicLens Platform is a free SaaS (Software as a Service) application where you 
 
 If you would like to contribute, please contribute to the GitHub repository. We welcome pull requests!
 
-## License
-
-This project is licensed under the MIT License. For more information, see the `LICENSE` file.
