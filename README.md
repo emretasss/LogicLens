@@ -13,12 +13,12 @@ LogicLens Platform is a free SaaS (Software as a Service) application where you 
 - Music processing: Edit, add effects, or convert your music files.
 - Code execution: Run code experiments and visualize the results.
 
-## Free Limits
+## Free Limits (1)
 
-- Image size: 
-- Video length: 
-- Music file size: 
-- Code execution time: 
+- Image size
+- Video length
+- Music file size
+- Code execution time
 
 
 
